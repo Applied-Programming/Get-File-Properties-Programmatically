@@ -13,14 +13,14 @@ class DemonstrateFile {
         p("FILE NAME:" + f1.getName());
         p("PATH NAME:" + f1.getPath());
         p("ABSOLUTE PATH:" + f1.getAbsolutePath());
-        p(f1.exists() ? "exists" : "does not exist");
-        p(f1.canWrite() ? "is writable" : "is not writeable");
-        p(f1.canRead() ? "is readable" : "is not readable");
-        p("is" + (f1.isDirectory() ? "" : "not" + "a directory"));
-        p(f1.isFile() ? "is normal file" :"might be a named pipe ");
-                p(f1.isAbsolute() ? "is absolute" : "is not absloute");
-        p("file last modified" + f1.lastModified());
-        p("file size:" + f1.length() + "bytes");
+        p(f1.exists() ? "Exists" : "Does not exist");
+        p(f1.canWrite() ? "Is writable" : "Is not writeable");
+        p(f1.canRead() ? "Is readable" : "Is not readable");
+        p("Is" + (f1.isDirectory() ? "" : "Not" + "a directory"));
+        p(f1.isFile() ? "Is normal file" :"Might be a named pipe ");
+                p(f1.isAbsolute() ? "Is absolute" : "Is not absloute");
+        p("File last modified" + f1.lastModified());
+        p("File size:" + f1.length() + "bytes");
     }
 }
 
